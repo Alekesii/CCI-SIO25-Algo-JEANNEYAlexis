@@ -1,0 +1,19 @@
+2.4
+
+Variables
+
+nbUsers en entiers
+
+Début
+
+nbUsers <= Lire("Indiquez le nombre d'utilisateurs")
+    Si nbUsers > 0 Alors
+        Ecrire "Nombre d'utilisateurs positif"
+    Sinon Si nbUsers < 0 Alors
+        Ecrire "Nombre d'utilisateurs négatif"
+    Sinon
+        Ecrire "Nombre d'utilisateur null"
+    FinSi
+
+Fin
+
