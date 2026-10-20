@@ -1,4 +1,4 @@
-2.4
+---2.4---
 
 Variables
 
@@ -16,4 +16,27 @@ nbUsers <= Lire("Indiquez le nombre d'utilisateurs")
     FinSi
 
 Fin
+
+---2.5---
+
+Variables
+
+nbUsers1 en entiers
+nbUsers2 en entiers
+
+Début
+
+nbUsers1 <= Lire("Indiquez le nombre d'utilisateurs n1")
+nbUsers2 <= Lire("Indiquez le nombre d'utilisateurs n2")
+
+    Si nbUsers1 > 0 ET nbUsers2 > 0 Alors OU nbUsers1 < 0 ET nbUsers2 < 0 
+        Ecrire "Produit positif"
+    Sinon Si nbUsers1 > 0 ET nbUsers2 < 0 Alors OU nbUsers1 > 0 ET nbUsers2 < 0 
+        Ecrire "Produit negatif"
+    Sinon
+        Ecrire "Produit null"
+    FinSi
+
+Fin
+
 
