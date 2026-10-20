@@ -26,9 +26,9 @@ Début
     nbUsers1 <= Lire("Indiquez le nombre d'utilisateurs n1")
     nbUsers2 <= Lire("Indiquez le nombre d'utilisateurs n2")
     
-        Si nbUsers1 > 0 ET nbUsers2 > 0 Alors OU nbUsers1 < 0 ET nbUsers2 < 0 
+        Si nbUsers1 > 0 ET nbUsers2 > 0  OU nbUsers1 < 0 ET nbUsers2 < 0 alors
             Ecrire "Produit positif"
-        Sinon Si nbUsers1 > 0 ET nbUsers2 < 0 Alors OU nbUsers1 > 0 ET nbUsers2 < 0 
+        Sinon Si nbUsers1 > 0 ET nbUsers2 < 0  OU nbUsers1 > 0 ET nbUsers2 < 0 alors
             Ecrire "Produit negatif"
         Sinon
             Ecrire "Produit null"
