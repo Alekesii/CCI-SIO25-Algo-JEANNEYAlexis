@@ -20,23 +20,40 @@ Fin
 ---2.5---
 
 Variables
-
-nbUsers1 en entiers
-nbUsers2 en entiers
-
+    nbUsers1 en entiers
+    nbUsers2 en entiers
 Début
-
-nbUsers1 <= Lire("Indiquez le nombre d'utilisateurs n1")
-nbUsers2 <= Lire("Indiquez le nombre d'utilisateurs n2")
-
-    Si nbUsers1 > 0 ET nbUsers2 > 0 Alors OU nbUsers1 < 0 ET nbUsers2 < 0 
-        Ecrire "Produit positif"
-    Sinon Si nbUsers1 > 0 ET nbUsers2 < 0 Alors OU nbUsers1 > 0 ET nbUsers2 < 0 
-        Ecrire "Produit negatif"
-    Sinon
-        Ecrire "Produit null"
-    FinSi
-
+    nbUsers1 <= Lire("Indiquez le nombre d'utilisateurs n1")
+    nbUsers2 <= Lire("Indiquez le nombre d'utilisateurs n2")
+    
+        Si nbUsers1 > 0 ET nbUsers2 > 0 Alors OU nbUsers1 < 0 ET nbUsers2 < 0 
+            Ecrire "Produit positif"
+        Sinon Si nbUsers1 > 0 ET nbUsers2 < 0 Alors OU nbUsers1 > 0 ET nbUsers2 < 0 
+            Ecrire "Produit negatif"
+        Sinon
+            Ecrire "Produit null"
+        FinSi
+    
 Fin
 
+---2.6---
 
+Variables
+age en Entier
+Début
+    age <= Lire("Age de l'enfant")
+    
+        Si age => 6 ET age =< 7
+            Ecrire "Poussin"
+        Sinon si age => 8 ET age =< 9 
+            Ecrire "Pupille"
+        Sinon si age => 10 ET age =< 11
+            Ecrire "Minime"
+        Sinon si age >= 12
+            Ecrire "Cadet"
+        FinSi
+Fin
+
+Oui plusieurs algorithmes peuvent être conçus.
+
+---2.7---
